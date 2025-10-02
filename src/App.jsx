@@ -3,11 +3,11 @@ import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./components/HeroSection/HeroSection";
-import ClassesSection from "./components/ClassesSection/ClassesSection";
-import AboutUs from "./components/AboutUs/AboutUs";
-import GallerySection from "./components/GallerySection/GallerySection";
-import ContactSection from "./components/ContactSection/ContactSection";
+import HeroSection from "./components/Herosection/HeroSection";
+import ClassesSection from "./components/Classessection/ClassesSection";
+import AboutUs from "./components/Aboutus/AboutUs";
+import GallerySection from "./components/Gallery-section/GallerySection";
+import ContactSection from "./components/Contactsection/ContactSection";
 import Showcase from "./components/Showcase/Showcase";
 import Footer from "./components/Footer/Footer";
 

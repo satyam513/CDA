@@ -1,5 +1,5 @@
 import React from "react";
-import GallerySection from "../components/GallerySection/GallerySection"; // Importing the GallerySection component
+import GallerySection from "../components/Gallery-section/GallerySection"; // Importing the GallerySection component
 import Showcase from "../components/Showcase/Showcase";
 
 const GalleryPage = () => {

@@ -2,7 +2,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // ✅ import navigate hook
 
-import ClassesSection from "../components/ClassesSection/ClassesSection";
+import ClassesSection from "../components/Classessection/ClassesSection";
 import Showcase from "../components/Showcase/Showcase";
 
 function ClassesPage() {
