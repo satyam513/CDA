@@ -1,0 +1,226 @@
+.footer {
+  background: #fff;
+  padding: 60px 20px;
+  border-top: 1px solid #eee;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px; /* slightly smaller gap */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Column */
+.about-col {
+  flex: 1; /* balanced with right */
+  min-width: 280px;
+}
+
+.about-col h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.delhi-office {
+  margin-bottom: 25px;
+}
+
+.delhi-office h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.delhi-office p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Right Column - Inquiry Card */
+.inquiry-card {
+  flex: 0.8; /* narrower */
+  min-width: 300px;
+  background: #fff;
+  padding: 22px 24px; /* reduced padding */
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+  max-width: 340px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inquiry-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+.inquiry-card h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Form */
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px; /* tighter spacing */
+}
+
+/* Floating label inputs */
+.footer-form .input-group {
+  position: relative;
+}
+
+.footer-form input,
+.footer-form select {
+  width: 100%;
+  padding: 10px 10px; /* smaller input height */
+  border: 1.3px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: transparent;
+  outline: none;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.footer-form input:focus,
+.footer-form select:focus {
+  border-color: #ff2e4c;
+  box-shadow: 0 0 0 2px rgba(255, 46, 76, 0.1);
+}
+
+/* Floating label animation */
+.footer-form label {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  font-size: 0.85rem;
+  color: #777;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.footer-form input:focus ~ label,
+.footer-form input:valid ~ label,
+.footer-form select:focus ~ label,
+.footer-form select:valid ~ label {
+  top: -6px;
+  left: 8px;
+  font-size: 0.7rem;
+  background: #fff;
+  padding: 0 4px;
+  color: #ff2e4c;
+}
+
+/* Dropdown */
+.select-group {
+  position: relative;
+}
+
+.select-group select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.select-group::after {
+  content: "▼";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.7rem;
+  color: #666;
+  pointer-events: none;
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  padding: 10px; /* reduced height */
+  border: none;
+  border-radius: 8px;
+  background: #ff2e4c;
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #e02640;
+}
+
+/* Socials & Links */
+.footer-socials {
+  margin-top: 30px;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.2rem; /* icons bigger */
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff2e4c;
+}
+
+.footer-links {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #444;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ff2e4c;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .about-col,
+  .inquiry-card {
+    flex: unset;
+    width: 100%;
+  }
+}

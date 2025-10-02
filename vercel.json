@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/" },
+    { "source": "/classes", "destination": "/" },
+    { "source": "/gallery", "destination": "/" },
+    { "source": "/kids-dance", "destination": "/" },
+    { "source": "/adult-dance", "destination": "/" },
+    { "source": "/wedding-dance", "destination": "/" },
+    { "source": "/zumba", "destination": "/" },
+    { "source": "/yoga", "destination": "/" },
+    { "source": "/events", "destination": "/" },
+    { "source": "/enrollment", "destination": "/" },
+    { "source": "/contact", "destination": "/" }
+  ]
+}

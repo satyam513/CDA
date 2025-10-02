@@ -1,0 +1,179 @@
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px; /* add padding for smaller screens */
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.tagline .highlight {
+  color: #ff2e4c;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Circular Outline Box */
+.rounded-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid white;
+  padding: 8px 15px;
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.rounded-box:hover {
+  background-color: white;
+  color: black;
+}
+
+.play-icon {
+  font-size: 1.1rem;
+}
+
+/* Bottom Left Button */
+.bottom-left {
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+}
+
+/* Bottom Right Trusted Section */
+.bottom-right {
+  position: absolute;
+  bottom: 90px;
+  right: 30px;
+}
+
+.student-avatars {
+  display: flex;
+}
+
+.student-avatars img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: -10px;
+}
+
+.rounded-box p {
+  margin: 0;
+}
+
+.rounded-box span {
+  color: #ff2e4c;
+  font-weight: bold;
+}
+
+/* ========================= */
+/* 📱 Responsive Breakpoints */
+/* ========================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .bottom-left,
+  .bottom-right {
+    bottom: 70px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+
+  .rounded-box {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .student-avatars img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .bottom-left,
+  .bottom-right {
+    position: static; /* stack instead of floating */
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+}

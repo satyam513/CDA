@@ -1,0 +1,110 @@
+.about-section {
+  padding: 80px 20px;
+  background: #f8f8f8;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto 80px auto;
+  gap: 40px;
+}
+
+/* Reverse layout (image right, text left) */
+.about-container.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Left / Right Image */
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+/* Right Content */
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+  position: relative;
+}
+
+.about-content h2::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #ff2e4c;
+  display: block;
+  margin-top: 8px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.about-content span {
+  color: #ff2e4c;
+  font-weight: bold;
+}
+
+/* Button (reuse style) */
+.btn-primary {
+  background-color: #ff2e4c;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e0263f;
+  transform: translateY(-3px);
+}
+
+/* ========================= */
+/* 📱 Responsive Styling */
+/* ========================= */
+@media (max-width: 992px) {
+  .about-container {
+    gap: 20px;
+  }
+
+  .about-content h2 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-container.reverse {
+    flex-direction: column;
+  }
+
+  .about-image img {
+    max-width: 100%;
+  }
+
+  .about-content h2::after {
+    margin: 8px auto 0 auto;
+  }
+}
