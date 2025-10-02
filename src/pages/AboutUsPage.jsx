@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import AboutUs from "../components/About-us/AboutUs"; // reuse AboutUs component + CSS
+import AboutUs from "../components/AboutUs/AboutUs"; // reuse AboutUs component + CSS
 
 const styles = {
   page: { background: "#fff", color: "#222", fontFamily: "Inter, sans-serif" },

@@ -2,8 +2,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // ✅ import navigate hook
 
-import ClassesSection from "../components/Classes-section/ClassesSection";
-import Showcase from "../components/Show-case/Showcase";
+import ClassesSection from "../components/ClassesSection/ClassesSection";
+import Showcase from "../components/Showcase/Showcase";
 
 function ClassesPage() {
   const navigate = useNavigate(); // ✅ create navigate instance
