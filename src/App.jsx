@@ -8,7 +8,7 @@ import ClassesSection from "./components/ClassesSection/ClassesSection";
 import AboutUs from "./components/AboutUs/AboutUs";
 import GallerySection from "./components/GallerySection/GallerySection";
 import ContactSection from "./components/ContactSection/ContactSection";
-import Showcase from "./components/ShowCase/Showcase";
+import Showcase from "./components/Showcase/Showcase";
 import Footer from "./components/Footer/Footer";
 
 // Pages
