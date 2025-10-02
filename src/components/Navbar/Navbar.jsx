@@ -9,7 +9,15 @@ function CDA_Navbar() {
     <Navbar expand="lg" bg="dark" variant="dark" sticky="top">
       <Container>
         {/* Brand / Logo */}
-        <Navbar.Brand href="/">🎵 Creative Dance Academy</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <img
+            src="/logo.jpeg" // path relative to public folder
+            alt="Creative Dance Academy"
+            height="40" // adjust height as needed
+            className="d-inline-block align-top"
+          />{" "}
+          Creative Dance Academy
+        </Navbar.Brand>
 
         {/* Mobile Toggle */}
         <Navbar.Toggle aria-controls="cda-navbar-nav" />
