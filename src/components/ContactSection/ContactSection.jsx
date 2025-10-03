@@ -38,13 +38,14 @@ const ContactSection = () => {
           <p>We’d love to hear from you! Reach out with any questions.</p>
 
           <div className="info-item">
-            <strong>📍 Address:</strong> 123 Dance Street, Kochi, India
+            <strong>📍 Address:</strong> Creative Dance Academy, Pillar No. 76,
+            Raja Bazar, Sheikhpura, Bailey Road, Patna - 14, Bihar, India.
           </div>
           <div className="info-item">
-            <strong>📞 Phone:</strong> +91 98765 43210
+            <strong>📞 Phone:</strong> +91 9576733466, +91 7992407300
           </div>
           <div className="info-item">
-            <strong>✉️ Email:</strong> info@danceacademy.com
+            <strong>✉️ Email:</strong> info@thedanceacademy.com
           </div>
 
           <div className="social-links">
