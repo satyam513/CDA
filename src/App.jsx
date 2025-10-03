@@ -8,7 +8,7 @@ import ClassesSection from "./components/ClassesSection/ClassesSection.jsx";
 import AboutUs from "./components/AboutUs/AboutUs.jsx";
 import GallerySection from "./components/GallerySection/GallerySection.jsx";
 import ContactSection from "./components/ContactSection/ContactSection.jsx";
-import Showcase from "./components/Showcase/Showcase.jsx";
+import Showcase from "./components/Showcase/ShowCase.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 // Pages

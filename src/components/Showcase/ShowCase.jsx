@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { FaEye } from "react-icons/fa";
-import "./Showcase.css";
+import "./ShowCase.css";
 
 const Showcase = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);

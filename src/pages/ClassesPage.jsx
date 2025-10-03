@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom"; // ✅ import navigate hook
 
 import ClassesSection from "../components/ClassesSection/ClassesSection";
-import Showcase from "../components/Showcase/Showcase";
+import Showcase from "../components/Showcase/ShowCase";
 
 function ClassesPage() {
   const navigate = useNavigate(); // ✅ create navigate instance
