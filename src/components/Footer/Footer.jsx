@@ -28,21 +28,21 @@ const Footer = () => {
           <div className="footer-socials">
             <div className="social-links">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/17QxdvxYmT/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaFacebookF size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/cda_official76?igsh=bWk0c3hjZGZkdjhq"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaInstagram size={20} />
               </a>
               <a
-                href="https://youtube.com"
+                href="https://youtube.com/@cdaofficial76?si=wj63GbC1oWDdR9eU"
                 target="_blank"
                 rel="noopener noreferrer"
               >

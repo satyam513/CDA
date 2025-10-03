@@ -49,9 +49,27 @@ const ContactSection = () => {
           </div>
 
           <div className="social-links">
-            <a href="#">🌐 Facebook</a>
-            <a href="#">📷 Instagram</a>
-            <a href="#">▶️ YouTube</a>
+            <a
+              href="https://www.facebook.com/share/17QxdvxYmT/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🌐 Facebook
+            </a>
+            <a
+              href="https://www.instagram.com/cda_official76?igsh=bWk0c3hjZGZkdjhq"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              📷 Instagram
+            </a>
+            <a
+              href="https://youtube.com/@cdaofficial76?si=wj63GbC1oWDdR9eU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ▶️ YouTube
+            </a>
           </div>
         </motion.div>
 
