@@ -2,14 +2,14 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "./components/Navbar/Navbar";
-import HeroSection from "./components/HeroSection/HeroSection";
-import ClassesSection from "./components/ClassesSection/ClassesSection";
-import AboutUs from "./components/AboutUs/AboutUs";
-import GallerySection from "./components/GallerySection/GallerySection";
-import ContactSection from "./components/ContactSection/ContactSection";
-import Showcase from "./components/Showcase/Showcase";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import HeroSection from "./components/HeroSection/HeroSection.jsx";
+import ClassesSection from "./components/ClassesSection/ClassesSection.jsx";
+import AboutUs from "./components/AboutUs/AboutUs.jsx";
+import GallerySection from "./components/GallerySection/GallerySection.jsx";
+import ContactSection from "./components/ContactSection/ContactSection.jsx";
+import Showcase from "./components/Showcase/Showcase.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 // Pages
 import AboutUsPage from "./pages/AboutUsPage";
